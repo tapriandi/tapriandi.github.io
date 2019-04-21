@@ -1,162 +1,57 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Tapri Andi | My Portfolio Website</title>\
+		<title>Tapri Andi | My Portfolio Website</title>
 		<link href="./style.css" type="text/css" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600,700" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Muli|Noto+Serif" rel="stylesheet">
 	</head>
 	
 
-	<body>
-		<header class="header">
-			<nav class="navbar">
-				<ul>
-					<li><a href="#">Home</a></li>
-					<li><a href="#Portfolio">Portfolio</a></li>
-					<li><a href="#Blog">Blog</a></li>
-				</ul>
+	<body class="index">
+		<header>
+			<nav>
+				<div class="row fix">
+					<img src="img/yummi-icon.png" class="logo" href="#">
+					<ul class="main-nav">
+						<li><a class="active" href="#">Home</a></li>
+						<li><a href="portfolio.html">Portfolio</a></li>
+						<li><a href="blog.html">Blog</a></li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+				</div>
 			</nav>
-		</header>
-		
-		<main class="jumbotron">
-			<div class="opening">
-				<!--img src="./img/main-background.jpg" alt="jumbotron"-->
-				<div class="op-img">
-					<img src="img/git-icon.png" alf="my profile">
+			<div class="row fix index-box">
+				<div class="col-5 right">
+					<img src="img/me.png" class="index-img">
 				</div>
-				<div class="op-text">
-					<h1>Hello.. my name is 
-						<span class="highlight">tapri andi</span>
-						, i'm a 
-						<span class="highlight">web developer.</span>
+				<div class="col-7 index-col-7">
+					<h1>
+						Hello.. I'm tapri andi,<br> student in <span>hacktiv8</span>
 					</h1>
-					<p class="white">You can see my portfolio below, Thank you</p>
 				</div>
 			</div>
-		</main>
-		
-<!--portfolio-->
-		<section id="Portfolio">
-			<div class="blank"></div>
-			<div class="container">
-				<h2>My Portfolio</h2>
-				<hr>
-			</div>
-			<div class="port-container">
-				<a class="port-nav" href="#">
-					<div class="port-item">
-						<img class="port-img" src="img/portofolio-1.jpg">
-						<p>Creative Culture</p>
-					</div>
-				</a>
-				<a class="port-nav" href="#">
-					<div class="port-item">
-						<img class="port-img" src="img/portofolio-2.jpg">
-						<p>Your Bloging</p>
-					</div>
-				</a>
-				<a class="port-nav" href="#">
-					<div class="port-item">
-						<img class="port-img" src="img/portofolio-3.jpg">
-						<p>live Style</p>
-					</div>
-				</a>
-				<a class="port-nav" href="#">
-					<div class="port-item">
-						<img class="port-img" src="img/portofolio-4.jpg">
-							
-	
-						<p>Destination Story</p>
-					</div>
-				</a>
-				<a class="port-nav" href="#">
-					<div class="port-item">
-						<img class="port-img" src="img/portofolio-5.jpg">
-						<p>Healt Management</p>
-					</div>
-				</a>
-				<a class="port-nav" href="#">
-					<div class="port-item">
-						<img class="port-img" src="img/portofolio-6.jpg">
-						<p>Mobile Application
-						</p>
-					</div>
-				</a>
-			</div>
-		</section>
-
-<!-- Blog -->
-		<section id="Blog">
-			<div class="blank"></div>
-			<div class="container">
-				<h2>Update Your Information</h2>
-				<hr>
-			</div>
-			<div class="blog-container">
-					<div class="blog-panel">
-						<a href="#">	
-							<img class="blog-img" src="./img/blog-1.jpg" alt="blog-1">
-						</a>
-						<div class="blog-text">
-							<a href="#">
-								<h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
-							</a>
-							<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum voluptatem temporibus dolorum assumenda, quidem rem commodi rerum nemo tempora animi ab quaerat provident modi delectus, voluptatum mollitia culpa sunt itaque!</p>
-	
-							<p>
-								<a class="read-more" href="#">Read More</a>
-							</p>
-						</div>
-					</div>
-					<div class="blog-panel">
-						<a href="#">
-							<img class="blog-img" src="./img/blog-2.png" alt="blog-2">
-						</a>
-						<div class="blog-text">
-							<a href="#">
-								<h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
-							</a>
-							<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates officia dolorum vel repellendus veniam voluptatibus distinctio nesciunt voluptate, ad, et rerum accusantium architecto totam, tempore alias expedita nam dolores blanditiis.</p>
-							<p>
-								<a class="read-more" href="#">Read More</a>
-							</p>
-						</div>
-					</div>
-					<div class="blog-panel">
-						<a href="#">
-							<img class="blog-img" src="./img/blog-3.jpeg" alt="blog-3">
-						</a>
-						<div class="blog-text">
-							<a href="#">
-								<h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
-							</a>
-							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repudiandae placeat quam est illo accusantium? Nobis illo reprehenderit, culpa unde voluptates ipsum fugiat at, atque voluptas non dolores itaque eum?</p>
-							<p>
-								<a class="read-more" href="#">Read More</a>
-							</p>
-						</div>
-					</div>
-					<div class="blog-panel">
-						<a href="#">
-							<img class="blog-img" src="./img/blog-4.jpeg" alt="blog-4">
-						</a>	
-						<div class="blog-text">
-							<a href="#">
-								<h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
-							</a>
-							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, dolorum cum. Sint qui quidem voluptatem natus adipisci illum ea, at beatae voluptate aperiam aliquam suscipit aliquid totam dolore soluta facere.
-							</p>
-							<p>
-								<a class="read-more" href="#">Read More</a>
-							</p>
-						</div>
-					</div>
+			<!-- <div class="container">
+				<div class="text-centered">
+					<ul class="index-list-img">
+						<li>
+							<img class="index-image" src="img/me.png" alt="niko">
+						</li>
+					</ul>
+					<ul class="index-list-text">
+						<li>
+							<h1>
+							Hello.. I'm tapri andi<br>
+							student in <span>hacktiv8</span>
+							</h1>
+						</li>
+					</ul>
 				</div>
-		</section>
+			</div> -->
+		</header>
+		<footer	>
+			<div class="copyright">
+				<a href="#">Yummi Code</a><span>  |  @ copyright 2019</span>
+			</div>
+		</footer>
 	</body>
-	<footer>
-		<span><strong>My Portfolio Website<strong></span>
-			<br>
-		<span>@copyright 2019 | Tapri Andi</span>
-	</footer>
 </html>
