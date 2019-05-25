@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(226, 226, 226);
+}
+
+.container {
+  margin: 50px;
+  text-align: center;
+}
+
+.header {
+  margin-top: 60px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+nav {
+  margin: 20px;
+}
+
+nav ul li{
+  list-style: none;
+  display: inline;
+  font-size: 16px;
+  padding-right: 20px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: black;
+}
+
+.active{
+  color: blue;
+  font-size: 17px;
+  /* border-bottom: 5px solid #fff; */
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+img{
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.gallery :hover {
+  opacity: 0.5;
+  width: 301px;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.9);
+  color : white;
+  text-align: center;
+}
+
+/* Image Open */
+.modal img {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 500px;
+  max-height: 500px;
+  border-radius: 10px;
+}
+
+/* Add Animation */
+.modal-content, #caption {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 80%;
+  }
+}

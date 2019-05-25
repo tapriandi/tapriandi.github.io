@@ -1,0 +1,172 @@
+{
+    "cats" : [
+        {
+            "id" : 1,
+            "kategoi" : "rusian",
+            "gambar": "cat/rusian/r1.jpg",
+            "deskripsi" : "ini deskripsi"
+        },
+        {
+            "id" : 2,
+            "kategoi" : "rusian",
+            "gambar": "cat/rusian/r2.jpg",
+            "deskripsi" : "ini deskripsi"
+        },
+        {
+            "id" : 3,
+            "kategoi" : "rusian",
+            "gambar": "cat/rusian/r3.jpg",
+            "deskripsi" : "ini deskripsi"
+        },
+        {
+            "id" : 4,
+            "kategoi" : "rusian",
+            "gambar": "cat/rusian/r4.jpg",
+            "deskripsi" : "ini deskripsi"
+        },
+        {
+            "id" : 5,
+            "kategoi" : "rusian",
+            "gambar": "cat/rusian/r5.jpg",
+            "deskripsi" : "ini deskripsi"
+        },
+        {
+            "id" : 1,
+            "kategoi" : "anggora",
+            "gambar": "cat/anggora/a1.jpg",
+            "deskripsi" : "ini deskripsi"
+        },
+        {
+            "id" : 2,
+            "kategoi" : "anggora",
+            "gambar": "cat/anggora/a2.jpg",
+            "deskripsi" : "ini deskripsi"
+        },
+        {
+            "id" : 3,
+            "kategoi" : "anggora",
+            "gambar": "cat/anggora/a3.jpg",
+            "deskripsi" : "ini deskripsi"
+        },
+        {
+            "id" : 4,
+            "kategoi" : "anggora",
+            "gambar": "cat/anggora/a4.jpg",
+            "deskripsi" : "ini deskripsi"
+        },
+        {
+            "id" : 5,
+            "kategoi" : "anggora",
+            "gambar": "cat/anggora/a5.jpg",
+            "deskripsi" : "ini deskripsi"
+        },
+        {
+            "id" : 6,
+            "kategoi" : "anggora",
+            "gambar": "cat/anggora/a6.jpg",
+            "deskripsi" : "ini deskripsi"
+        },
+        {
+            "id" : 1,
+            "kategoi" : "bali",
+            "gambar": "cat/bali/b1.jpg",
+            "deskripsi" : "ini deskripsi"
+        },
+        {
+            "id" : 2,
+            "kategoi" : "bali",
+            "gambar": "cat/bali/b2.jpg",
+            "deskripsi" : "ini deskripsi"
+        },
+        {
+            "id" : 3,
+            "kategoi" : "bali",
+            "gambar": "cat/bali/b3.jpg",
+            "deskripsi" : "ini deskripsi"
+        },
+        {
+            "id" : 4,
+            "kategoi" : "bali",
+            "gambar": "cat/bali/b4.jpg",
+            "deskripsi" : "ini deskripsi"
+        },
+        {
+            "id" : 1,
+            "kategoi" : "bengal",
+            "gambar": "cat/bengal/be1.jpg",
+            "deskripsi" : "ini deskripsi"
+        },
+        {
+            "id" : 2,
+            "kategoi" : "bengal",
+            "gambar": "cat/bengal/be2.jpg",
+            "deskripsi" : "ini deskripsi"
+        },
+        {
+            "id" : 3,
+            "kategoi" : "bengal",
+            "gambar": "cat/bengal/be3.jpg",
+            "deskripsi" : "ini deskripsi"
+        },
+        {
+            "id" : 4,
+            "kategoi" : "bengal",
+            "gambar": "cat/bengal/be4.jpg",
+            "deskripsi" : "ini deskripsi"
+        },
+        {
+            "id" : 5,
+            "kategoi" : "bengal",
+            "gambar": "cat/bengal/be5.jpg",
+            "deskripsi" : "ini deskripsi"
+        },
+        {
+            "id" : 6,
+            "kategoi" : "bengal",
+            "gambar": "cat/bengal/be6.jpg",
+            "deskripsi" : "ini deskripsi"
+        },
+        {
+            "id" : 7,
+            "kategoi" : "bengal",
+            "gambar": "cat/bengal/be7.jpg",
+            "deskripsi" : "ini deskripsi"
+        },
+        {
+            "id" : 1,
+            "kategoi" : "garfield",
+            "gambar": "cat/garfield/g1.jpg",
+            "deskripsi" : "ini deskripsi"
+        },
+        {
+            "id" : 2,
+            "kategoi" : "garfield",
+            "gambar": "cat/garfield/g2.jpg",
+            "deskripsi" : "ini deskripsi"
+        },
+        {
+            "id" : 3,
+            "kategoi" : "garfield",
+            "gambar": "cat/garfield/g3.jpg",
+            "deskripsi" : "ini deskripsi"
+        },
+        {
+            "id" : 4,
+            "kategoi" : "garfield",
+            "gambar": "cat/garfield/g4.jpg",
+            "deskripsi" : "ini deskripsi"
+        },
+        {
+            "id" : 5,
+            "kategoi" : "garfield",
+            "gambar": "cat/garfield/g5.jpg",
+            "deskripsi" : "ini deskripsi"
+        },
+        {
+            "id" : 6,
+            "kategoi" : "garfield",
+            "gambar": "cat/garfield/g6.jpg",
+            "deskripsi" : "ini deskripsi"
+        }
+    ]
+}
