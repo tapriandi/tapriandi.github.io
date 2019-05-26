@@ -20,26 +20,21 @@ body {
   text-align: center;
 }
 
-nav {
-  margin: 20px;
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: white;
+  cursor: pointer;
 }
 
-nav ul li{
-  list-style: none;
-  display: inline;
-  font-size: 16px;
-  padding-right: 20px;
+.btn:hover {
+  background-color: #ddd;
 }
 
-nav ul li a{
-  text-decoration: none;
-  color: black;
-}
-
-.active{
-  color: blue;
-  font-size: 17px;
-  /* border-bottom: 5px solid #fff; */
+.btn.active {
+  background-color: #666;
+   color: white;
 }
 
 .flex {
@@ -47,7 +42,7 @@ nav ul li a{
   flex-wrap: wrap;
 }
 
-img{
+.gallery img{
   width: 300px;
   height: 300px;
   text-align: center;
@@ -58,8 +53,10 @@ img{
 .gallery :hover {
   opacity: 0.5;
   width: 301px;
+  border-radius: 10px;
 }
 
+/* Pop Up */
 .modal {
   display: none;
   position: fixed;
@@ -79,8 +76,8 @@ img{
 .modal img {
   margin: auto;
   display: block;
-  width: 80%;
-  max-width: 500px;
+  width: 100%;
+  max-width: 600px;
   max-height: 500px;
   border-radius: 10px;
 }
@@ -104,8 +101,25 @@ img{
 }
 
 /* 100% Image Width on Smaller Screens */
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 500px){
   .modal-content {
     width: 80%;
   }
+}
+
+/* ----------------------------------------------------------- */
+
+.col {
+  /* display: none; */
+}
+/* The "show" class is added to the filtered elements */
+.show {
+  /* display: flex; */
+  flex-wrap: wrap;
+} 
+
+/* -------------------------------------------------------- */
+footer a {
+  cursor: pointer;
+  color: rgb(0, 183, 255);
 }
