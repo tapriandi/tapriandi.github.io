@@ -1,57 +1,314 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Tapri Andi | My Portfolio Website</title>
-		<link href="./style.css" type="text/css" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Muli|Noto+Serif" rel="stylesheet">
-	</head>
-	
+  <head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons|Dancing+Script:700|" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css">
+    
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  </head>
 
-	<body class="index">
-		<header>
-			<nav>
-				<div class="row fix">
-					<img src="img/yummi-icon.png" class="logo" href="#">
-					<ul class="main-nav">
-						<li><a class="active" href="#">Home</a></li>
-						<li><a href="portfolio.html">Portfolio</a></li>
-						<li><a href="blog.html">Blog</a></li>
-						<li><a href="contact.html">Contact</a></li>
-					</ul>
-				</div>
-			</nav>
-			<div class="row fix index-box">
-				<div class="col-5 right">
-					<img src="img/me.png" class="index-img">
-				</div>
-				<div class="col-7 index-col-7">
-					<h1>
-						Hello.. I'm tapri andi,<br> student in <span>hacktiv8</span>
-					</h1>
-				</div>
-			</div>
-			<!-- <div class="container">
-				<div class="text-centered">
-					<ul class="index-list-img">
-						<li>
-							<img class="index-image" src="img/me.png" alt="niko">
-						</li>
-					</ul>
-					<ul class="index-list-text">
-						<li>
-							<h1>
-							Hello.. I'm tapri andi<br>
-							student in <span>hacktiv8</span>
-							</h1>
-						</li>
-					</ul>
-				</div>
-			</div> -->
-		</header>
-		<footer	>
-			<div class="copyright">
-				<a href="#">Yummi Code</a><span>  |  @ copyright 2019</span>
-			</div>
-		</footer>
-	</body>
+  <body id="home" class="scrollspy">
+
+    <!-- navbar -->
+    <div class="navbar-fixed">
+      <nav class="blue">
+        <div class="container">
+          <div class="nav-wrapper">
+            <a href="#home" class="brand-logo">Tapri andi</a>
+            <a href="#home" data-target="side-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+              <li><a class='drop-down' data-target='dropdown1' href="#">About<i class="material-icons right">arrow_drop_down</i></a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!-- navbar collapse -->
+    <ul class="sidenav" id="side-nav">
+      <li><a href="#home">Home</a></li>
+      <li>
+        <ul class="collapsible">
+          <li>
+            <div class="collapsible-header">About<i class="material-icons right">arrow_drop_down</i></div>
+            <div class="collapsible-body"><a class="grey-text text-darken-2" href="#skill">Skill</a></div>
+            <div class="collapsible-body"><a class="grey-text text-darken-2" href="#education">Education</a></div>
+            <div class="collapsible-body"><a class="grey-text text-darken-2" href="#experience">Experience</a></div>
+          </li>
+        </ul>
+      </li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <!-- drop down -->
+    <ul id='dropdown1' class='dropdown-content'>
+      <li><a class="grey-text text-darken-2" href="#experience">Experience</a></li>
+      <li><a class="grey-text text-darken-2" href="#education">Education</a></li>
+      <li><a class="grey-text text-darken-2" href="#skill">Skills</a></li>
+    </ul>
+
+    <!-- slider -->
+    <div class="slider">
+      <ul class="slides">
+        <li>
+          <img src="img/3080.jpg" style="opacity: 0.7">
+          <div class="caption left-align">
+            <div class="row" style="display: flex"> 
+              <div class="col"><img src="img/me.png"></div>
+              <div class="col">
+                <br>
+                <h3>Hello, I'm Tapri Andi</h3>
+                <h5 class="light grey-text text-lighten-3">Junior Web Development</h5>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <img src="img/a.jpg" style="opacity: 0.7">
+          <div class="caption right-align">
+            <h3>Just call me andi</h3>
+            <h5 class="light">I am very interested and enthusiastic about technologies</h5><br>
+            <a class="waves-effect blue-light blue btn" href="https://drive.google.com/open?id=1T4kJ13jmWwJgRutQfbasc6vYY9nS2PbP" target="blank" title="downliad me">Download Resume</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <!-- social media -->
+    <div class="container social-media">
+      <div class="row">
+        <div class="col m4 s12 center">
+          <a href="https://www.github.com/tapriandi" target="blank"><img src="img/github.png"></a>
+        </div>
+        <div class="col m4 s12 center">
+          <a href="https://www.instagram.com/tapri_andi" target="blank"><img src="img/instagram.png"></a>
+        </div>
+        <div class="col m4 s12 center">
+          <a href="https://www.linkedin.com/in/tapri-andi-827368b7" target="blank"><img src="img/linkedin.png"></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- about -->
+    <section id="about" class="about cover grey lighten-4 scrollspy">
+      <div class="container">
+        <h4 class="light center">About</h4>
+        <div class="row">
+          <div class="col m6 s12" style="margin-bottom: 1rem;">
+            <p>Who am i ?</p>
+            <p class="light">Hi! i'm andi, i'm junior front end engineer, i'm seeking a career that fits with my professional skills. Far from previous experience, i find something enjoyment and i enjoy in myself in this field.</p>
+            <a class="waves-effect blue-light blue btn" href="https://drive.google.com/open?id=1T4kJ13jmWwJgRutQfbasc6vYY9nS2PbP" target="blank" title="download me">Download Resume</a>
+          </div>
+          <div class="col m6 s12">
+            <p>Personal info</p>
+            <p class="light" href=""><i class="tiny material-icons">cake</i> 30 September 1992</p>
+            <p class="light" href=""><i class="tiny material-icons">call</i> +62 857 8041 0429</p>
+            <p class="light" href=""><i class="tiny material-icons">mail</i> tapriandi@gmail.com</p>
+            <p class="light" href=""><i class="tiny material-icons">home</i> Jl. Permata 11, Grogol Petamburan, Jakarta Barat</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- skill -->
+    <section id="skill" class="skill cover scrollspy">
+      <div class="container">
+        <div class="row">
+          <h4 class="light center">Skills</h4>
+          <div class="ok col m5 s12">
+            <h5 class="light">Programing</h5>
+            <p class="light"><a>70%</a> JavaScript</p>
+            <div class="progress light-blue lighten-4"><div class="determinate blue" style="width: 70%"></div></div>
+            <p class="light"><a>70%</a> Vue & Vuex</p>
+            <div class="progress light-blue lighten-4"><div class="determinate blue" style="width: 70%"></div></div>
+            <p class="light"><a>70%</a> TDD</p>
+            <div class="progress light-blue lighten-4"><div class="determinate blue" style="width: 70%"></div></div>
+            <p class="light"><a>75%</a> HTML & CSS</p>
+            <div class="progress light-blue lighten-4"><div class="determinate blue" style="width: 75%"></div></div>
+            <p class="light"><a>70%</a> Sequelize</p>
+            <div class="progress light-blue lighten-4"><div class="determinate blue" style="width: 70%"></div></div>
+          </div>
+          <div class="col m2"></div>
+          <div class="col m5 s12">
+            <h5 class="light">Design</h5>
+            <p class="light"><a>85%</a> AutoCad 2D & 3D</p>
+            <div class="progress light-blue lighten-4"><div class="determinate blue" style="width: 85%"></div></div>
+            <p class="light"><a>75%</a> Sketch Up</p>
+            <div class="progress light-blue lighten-4"><div class="determinate blue" style="width: 75%"></div></div>
+            <p class="light"><a>70%</a> Photoshop</p>
+            <div class="progress light-blue lighten-4"><div class="determinate blue" style="width: 70%"></div></div>
+            <p class="light"><a>70%</a> Corel</p>
+            <div class="progress light-blue lighten-4"><div class="determinate blue" style="width: 70%"></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- education -->
+    <section id="education" class="education cover scrollspy">
+      <div class="parallax-container">
+        <div class="parallax"><img src="img/3080.jpg"></div>
+          <div class="container">
+            <h4 class="light center shadow-text white-text">Education</h4>
+            <div class="row">
+              <div class="col m6 s6">
+                <div class="row">
+                  <div class="col m3 s5">
+                    <img src="img/hacktiv8.png" alt="" style="max-width: 6rem;" title="hacktiv8">
+                  </div>
+                  <div class="col m9 s7">
+                    <p class="shadow-text">Hacktiv8 Indonesia</p>
+                    <p class="light">april 2019 - august 2019 <br>Full Stack Javascript</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col m6 s6">
+                <div class="row">
+                  <div class="col m3 s5">
+                    <img src="img/smkn1.png" alt="" style="max-width: 6rem;" title="SMKN 1 Tonjong">
+                  </div>
+                  <div class="col m9 s7">
+                    <p class="shadow-text">SMKN 1 Tonjong, Brebes</p>
+                    <p class="light">Graduate on 2010 <br>Outomotiv Mechanic</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- experiences -->
+    <section id="experience" class="experience cover scrollspy">
+      <div class="container">
+        <!-- <div class="row"></div> -->
+        <h4 class="light center">Experience</h4>
+        <h5 class="light">JVC Electronics Indonesia, PT.</h5>
+        <p class="light">As Leader Purchasing
+          <br>October 2017 – December 2018
+        </p>
+        <a class="light">
+          <i class="tiny material-icons">layers</i>
+          Handling stock of component electronics unit (dashboard cars: GPS, Music Player, etc.) before assembly process.
+        </a>
+        <br>
+        <a class="light">
+          <i class="tiny material-icons">layers</i>
+          Checking stock component and material at the supplier for future production.
+        </a>
+
+        <h5 class="light" style="margin-top: 2rem;">Pacific Presstres Indonesia, PT.</h5>
+        <p class="light">As Design Engineer
+          <br>August 2015 – June 2017
+        </p>
+        <a class="light"><i class="tiny material-icons">layers</i>
+          Design molding for the concrete product as request by customer.
+        </a>
+        <br>
+        <a class="light"><i class="tiny material-icons">layers</i>
+          The design must be efficient and easy handling.
+        </a>
+        <br>
+        <a class="light"><i class="tiny material-icons">layers</i>
+          Count materials using by design.
+        </a>
+        <br>
+        <a class="light"><i class="tiny material-icons">layers</i>
+          Follow molding fabrication process until the finish.
+        </a>
+
+        <h5 class="light" style="margin-top: 2rem;">Musashi Auto Parts Indonesia, PT.</h5>
+        <p class="light">As Operator
+          <br>August 2013 – June 2015
+        </p>
+        <a class="light"><i class="tiny material-icons">layers</i>
+          Making engine parts of car (intake and exhaust valve.
+        </a>
+        <br>
+        <a class="light"><i class="tiny material-icons">layers</i>
+          Process production using semi-auto machine.
+        </a>
+        <br>
+        <a class="light"><i class="tiny material-icons">layers</i>
+          Continue checking of quality for the best part.
+        </a>
+      </div>
+    </section>
+
+    <!-- portfolio -->
+    <section id="portfolio" class="portfolio cover grey lighten-4 scrollspy">
+      <div class="container">
+        <h4 class="light center">Portfolio</h4>
+        <div class="row">
+          <div class="col m4 s12">
+            <img src="img/trees.jpeg" class="responsive-img materialboxed" title="to be continue">
+          </div>
+          <div class="col m4 s12">
+            <img src="img/trees.jpeg" class="responsive-img materialboxed" title="to be continue">
+          </div>
+          <div class="col m4 s12">
+            <img src="img/trees.jpeg" class="responsive-img materialboxed" title="to be continue">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- technologies -->
+    <section class="technologi">
+      <div class="parallax-container">
+        <div class="parallax"><img src="img/3080.jpg"></div>
+        <div class="container center tech">
+          <h5 class="white-text shadow-text">Technologies for built this web</h5>
+          <div class="row tech">
+            <div class="col m3 s3">
+              <a href="" target="blank"><img src="img/html5.png" title="HTML 5"></a>
+            </div>
+            <div class="col m3 s3">
+              <a href="" target="blank"><img src="img/css.png" title="CSS 3"></a>
+            </div>
+            <div class="col m3 s3">
+              <a href="" target="blank"><img src="img/materialize.png" title="Materiallize"></a>
+            </div>
+            <div class="col m3 s3">
+              <a href="" target="blank"><img src="img/js-cube.jpg" title="Javascript"></a>
+            </div>
+          </div>
+          <a class="waves-effect blue-light blue btn" href="https://drive.google.com/open?id=1T4kJ13jmWwJgRutQfbasc6vYY9nS2PbP" target="blank">Download Resume</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact us -->
+    <section id="contact" class="contact cover scrollspy">
+      <div class="container">
+        <h4 class="light center">Contact Us</h4>
+        <div class="row">
+          <div class="col m5 s12">
+
+          </div>
+          <div class="col m7 s12">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis consequuntur earum reprehenderit consectetur, dolorem est officiis impedit doloremque distinctio officia non maiores exercitationem minima ab odit assumenda numquam quae tempore.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="blue">
+      <p class="footer light center white-text">© 2019 Copyright  |  tapri andi</p>
+    </footer>
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+  </body>
 </html>
