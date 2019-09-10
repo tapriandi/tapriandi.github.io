@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Aclonica|Allerta+Stencil|Archivo+Black|Baloo|Capriola|Caveat+Brush|Darker+Grotesque|Francois+One|Fredoka+One|Italiana|NTR|Old+Standard+TT|Poiret+One|Righteous|Viga&display=swap" rel="stylesheet">
+    <style>
+      .main {
+        margin-top: 2rem;
+      }
+      .card {
+        height: 12rem;
+        box-shadow: 0 0 10px silver;
+        transition: 0.7s;
+        text-align: center;
+        margin: 5px 0 5px 0;
+      }
+      .card:hover {
+        box-shadow: 0 0 2px silver;
+      }
+      p {
+        border: 1px solid silver;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        padding: 3px 1px 1px 1px;
+      }
+      button {
+        border: 1px solid silver;
+        border-radius: 50%;
+        width: 25px;
+        height: 25px;
+        box-shadow: 0 0 10px silver;
+        transition: .7s;
+        margin: 0 2px 0 2px; 
+      }
+      button:hover {
+        box-shadow: 0 0 2px silver;
+      }
+      .btn-group {
+        margin-top: 3rem;;
+      }
+      .satu h1 {
+        margin-bottom: -10px;
+        font-family: 'Italiana', serif;
+      } .satu small {
+        letter-spacing: 4.3px;
+        margin-left: 3px;;
+      }
+
+      .dua h1 {
+        margin-bottom: -10px;
+        font-family: 'Capriola', sans-serif;
+      } .dua small {
+        letter-spacing: 6.5px;
+        word-spacing: 8px;
+        margin-left: 5px;
+      }
+
+      .tiga h1 {
+        margin-bottom: -15px;
+        font-family: 'NTR', sans-serif;
+      } .tiga small {
+        letter-spacing: 4px;
+      }
+
+      .empat h1 {
+        margin-bottom: -10px;
+        font-family: 'Aclonica', sans-serif;
+      } .empat small {
+        letter-spacing: 5px;
+      }
+
+      .lima h1 {
+        font-family: 'Allerta Stencil', sans-serif;
+        margin-bottom: -10px;
+      } .lima small {
+        letter-spacing: 6px;
+        word-spacing: 8px;
+        margin-left: 5px;
+      }
+
+      .enam h1 {
+        margin-bottom: -10px;
+        letter-spacing: 3px;
+        font-family: 'Caveat Brush', cursive;
+      } .enam small {
+        letter-spacing: 4px;
+      }
+
+      .tujuh h1 {
+        margin-bottom: -13px;
+        font-family: 'Baloo', cursive;
+      } .tujuh small {
+        letter-spacing: 5px;
+        margin-left: 3px;
+      }
+
+      .delapan h1 {
+        margin-bottom: -10px;
+        font-family: 'Viga', sans-serif;
+      } .delapan small {
+        letter-spacing: 5.4px;
+        margin-left: 5px;
+      }
+
+      .sembilan h1 {
+        margin-bottom: -10px;
+        font-family: 'Poiret One', cursive;
+      } .sembilan small {
+        letter-spacing: 5.5px;
+        margin-left: 5px;
+      }
+
+      .sepuluh h1 {
+        margin-bottom: -10px;
+        font-family: 'Old Standard TT', serif;
+      } .sepuluh small {
+        letter-spacing: 6px;
+        word-spacing: 8px;
+      }
+
+      .sebelas h1 {
+        margin-bottom: -10px;
+        font-family: 'Darker Grotesque', sans-serif;
+        letter-spacing: 4px;
+      } .sebelas small {
+        letter-spacing: 5px;
+      }
+
+      .duabelas h1 {
+        margin-bottom: -10px;
+      font-family: 'Righteous', cursive;
+      /* font-family: 'Francois One', sans-serif; */
+      /* font-family: 'Fredoka One', cursive; */
+      } .duabelas small {
+        letter-spacing: 5.5px;
+        margin-left: 4px;
+      }
+      
+    </style>
+    <title>Rahentama - logo</title>
+  </head>
+  <body>
+    <div class="container">
+      <h2 class="main"> Sample "RAHENTAMA" logo</h2>
+      <a>Tagline : Integrator Multisolusi</a>
+      <hr>
+      <div class="row">
+        <div class="col-sm m-2">
+          <div class="card">
+            <div class="card-body satu">
+              <h1 id="satu">RAHENTAMA</h1>
+              <small>Integrator Multisolusi</small>
+              <br>
+              <div class="btn-group">
+                <p class="mr-5">1</p>
+                <button type="button" onclick="blue1()" style="background-color: blue; "></button>
+                <button type="button" onclick="red1()" style="background-color: red;"></button>
+                <button type="button" onclick="black1()" style="background-color: black;"></button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm m-2">
+          <div class="card">
+            <div class="card-body dua">
+              <h1 id="dua">RAHENTAMA</h1>
+              <small>Integrator Multisolusi</small>
+              <br>
+              <div class="btn-group">
+                <p class="mr-5">2</p>
+                <button type="button" onclick="blue2()" style="background-color: blue; "></button>
+                <button type="button" onclick="red2()" style="background-color: red;"></button>
+                <button type="button" onclick="black2()" style="background-color: black;"></button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm m-2">
+          <div class="card">
+            <div class="card-body tiga">
+              <h1 id="tiga">RAHENTAMA</h1>
+              <small>Integrator Multisolusi</small>
+              <br>
+              <div class="btn-group">
+                <p class="mr-5">3</p>
+                <button type="button" onclick="blue3()" style="background-color: blue; "></button>
+                <button type="button" onclick="red3()" style="background-color: red;"></button>
+                <button type="button" onclick="black3()" style="background-color: black;"></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm m-2">
+          <div class="card">
+            <div class="card-body empat">
+              <h1 id="empat">RAHENTAMA</h1>
+              <small>Integrator Multisolusi</small>
+              <br>
+              <div class="btn-group">
+                <p class="mr-5">4</p>
+                <button type="button" onclick="blue4()" style="background-color: blue; "></button>
+                <button type="button" onclick="red4()" style="background-color: red;"></button>
+                <button type="button" onclick="black4()" style="background-color: black;"></button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm m-2">
+          <div class="card">
+            <div class="card-body lima">
+              <h1 id="lima">RAHENTAMA</h1>
+              <small>Integrator Multisolusi</small>
+              <br>
+              <div class="btn-group">
+                <p class="mr-5">5</p>
+                <button type="button" onclick="blue5()" style="background-color: blue; "></button>
+                <button type="button" onclick="red5()" style="background-color: red;"></button>
+                <button type="button" onclick="black5()" style="background-color: black;"></button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm m-2">
+          <div class="card">
+            <div class="card-body enam">
+              <h1 id="enam">RAHENTAMA</h1>
+              <small>Integrator Multisolusi</small>
+              <br>
+              <div class="btn-group">
+                <p class="mr-5">6</p>
+                <button type="button" onclick="blue6()" style="background-color: blue; "></button>
+                <button type="button" onclick="red6()" style="background-color: red;"></button>
+                <button type="button" onclick="black6()" style="background-color: black;"></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm m-2">
+          <div class="card">
+            <div class="card-body tujuh">
+              <h1 id="tujuh">RAHENTAMA</h1>
+              <small>Integrator Multisolusi</small>
+              <br>
+              <div class="btn-group">
+                <p class="mr-5">7</p>
+                <button type="button" onclick="blue7()" style="background-color: blue; "></button>
+                <button type="button" onclick="red7()" style="background-color: red;"></button>
+                <button type="button" onclick="black7()" style="background-color: black;"></button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm m-2">
+          <div class="card">
+            <div class="card-body delapan">
+              <h1 id="delapan">RAHENTAMA</h1>
+              <small>Integrator Multisolusi</small>
+              <br>
+              <div class="btn-group">
+                <p class="mr-5">8</p>
+                <button type="button" onclick="blue8()" style="background-color: blue; "></button>
+                <button type="button" onclick="red8()" style="background-color: red;"></button>
+                <button type="button" onclick="black8()" style="background-color: black;"></button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm m-2">
+          <div class="card">
+            <div class="card-body sembilan">
+              <h1 id="sembilan">RAHENTAMA</h1>
+              <small>Integrator Multisolusi</small>
+              <br>
+              <div class="btn-group">
+                <p class="mr-5">9</p>
+                <button type="button" onclick="blue9()" style="background-color: blue; "></button>
+                <button type="button" onclick="red9()" style="background-color: red;"></button>
+                <button type="button" onclick="black9()" style="background-color: black;"></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm m-2">
+          <div class="card">
+            <div class="card-body sepuluh">
+              <h1 id="sepuluh">RAHENTAMA</h1>
+              <small>Integrator Multisolusi</small>
+              <br>
+              <div class="btn-group">
+                <p class="mr-5">10</p>
+                <button type="button" onclick="blue10()" style="background-color: blue; "></button>
+                <button type="button" onclick="red10()" style="background-color: red;"></button>
+                <button type="button" onclick="black10()" style="background-color: black;"></button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm m-2">
+          <div class="card">
+            <div class="card-body sebelas">
+              <h1 id="sebelas">RAHENTAMA</h1>
+              <small>Integrator Multisolusi</small>
+              <br>
+              <div class="btn-group">
+                <p class="mr-5">11</p>
+                <button type="button" onclick="blue11()" style="background-color: blue; "></button>
+                <button type="button" onclick="red11()" style="background-color: red;"></button>
+                <button type="button" onclick="black11()" style="background-color: black;"></button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm m-2">
+          <div class="card">
+            <div class="card-body duabelas">
+              <h1 id="duabelas">RAHENTAMA</h1>
+              <small>Integrator Multisolusi</small>
+              <br>
+              <div class="btn-group">
+                <p class="mr-5">12</p>
+                <button type="button" onclick="blue12()" style="background-color: blue; "></button>
+                <button type="button" onclick="red12()" style="background-color: red;"></button>
+                <button type="button" onclick="black12()" style="background-color: black;"></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+
+    <script>
+      function red1() { document.getElementById("satu").style.color = "red"; }
+      function blue1() { document.getElementById("satu").style.color = "blue"; }
+      function black1() { document.getElementById("satu").style.color = "black"; }
+      function white1() { document.getElementById("satu").style.color = "white"; }
+
+      function red2() { document.getElementById("dua").style.color = "red"; }
+      function blue2() { document.getElementById("dua").style.color = "blue"; }
+      function black2() { document.getElementById("dua").style.color = "black"; }
+
+      function red3() { document.getElementById("tiga").style.color = "red"; }
+      function blue3() { document.getElementById("tiga").style.color = "blue"; }
+      function black3() { document.getElementById("tiga").style.color = "black"; }
+
+      function red4() { document.getElementById("empat").style.color = "red"; }
+      function blue4() { document.getElementById("empat").style.color = "blue"; }
+      function black4() { document.getElementById("empat").style.color = "black"; }
+
+      function red5() { document.getElementById("lima").style.color = "red"; }
+      function blue5() { document.getElementById("lima").style.color = "blue"; }
+      function black5() { document.getElementById("lima").style.color = "black"; }
+
+      function red6() { document.getElementById("enam").style.color = "red"; }
+      function blue6() { document.getElementById("enam").style.color = "blue"; }
+      function black6() { document.getElementById("enam").style.color = "black"; }
+
+      function red7() { document.getElementById("tujuh").style.color = "red"; }
+      function blue7() { document.getElementById("tujuh").style.color = "blue"; }
+      function black7() { document.getElementById("tujuh").style.color = "black"; }
+
+      function red8() { document.getElementById("delapan").style.color = "red"; }
+      function blue8() { document.getElementById("delapan").style.color = "blue"; }
+      function black8() { document.getElementById("delapan").style.color = "black"; }
+
+      function red9() { document.getElementById("sembilan").style.color = "red"; }
+      function blue9() { document.getElementById("sembilan").style.color = "blue"; }
+      function black9() { document.getElementById("sembilan").style.color = "black"; }
+
+      function red10() { document.getElementById("sepuluh").style.color = "red"; }
+      function blue10() { document.getElementById("sepuluh").style.color = "blue"; }
+      function black10() { document.getElementById("sepuluh").style.color = "black"; }
+
+      function red11() { document.getElementById("sebelas").style.color = "red"; }
+      function blue11() { document.getElementById("sebelas").style.color = "blue"; }
+      function black11() { document.getElementById("sebelas").style.color = "black"; }
+
+      function red12() { document.getElementById("duabelas").style.color = "red"; }
+      function blue12() { document.getElementById("duabelas").style.color = "blue"; }
+      function black12() { document.getElementById("duabelas").style.color = "black"; }
+    </script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  </body>
+</html>
